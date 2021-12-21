@@ -1,0 +1,5 @@
+alecgoedinghaus.*
+!*.tex
+!*.pdf
+
+__latexindent_temp.tex
