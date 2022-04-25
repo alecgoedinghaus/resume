@@ -24,13 +24,17 @@
 
 \usepackage[left=0.75in,top=0.6in,right=0.75in,bottom=0.6in]{geometry} % Document margins
 
+\usepackage{hyperref}
+
+\urlstyle{same}
+
 \name{Alec Goedinghaus}
 % \address{330 De Neve Dr \\ Los Angeles, CA 90024}
 % \address{linkedin.com/in/alecgoedinghaus \\ github.com/alecgoedinghaus}
 % \address{(909)~$\cdot$~636~$\cdot$~1966 \\ alecgoedinghaus@ucla.edu}
 
 \address{(909)~$\cdot$~636~$\cdot$~1966 \\ alecgoedinghaus@ucla.edu}
-\address{linkedin.com/in/alecgoedinghaus \\ github.com/alecgoedinghaus}
+\address{\url{linkedin.com/in/alecgoedinghaus} \\ \url{github.com/alecgoedinghaus}}
 
 \begin{document}
 
@@ -41,8 +45,8 @@
 \begin{rSection}{Education}
 
 {\bf University of California, Los Angeles} \hfill {\em Sep 2019 - Jun 2023} \\ 
-B.S. in Computer Science, Mathematics, 3.519 GPA \smallskip \\
-Honors: Dean's Honors
+B.S. in Computer Science and Mathematics, GPA: 3.519/4.000 \smallskip \\
+Honors: Dean's Honor List (terms you qualified)
 
 \end{rSection}
 
@@ -60,18 +64,6 @@ Tools: & Git/GitHub, Unix/Linux, VSCode, Twilio, NumPy, Selenium, Skimage, Tweep
     
 \end{rSection}
 
-%----------------------------------------------------------------------------------------
-%	WORK EXPERIENCE SECTION
-%----------------------------------------------------------------------------------------
-
-\begin{rSection}{Experience}
-
-\begin{rSubsection}{Berkeley Skydeck}{\em June 2017 - July 2017}{Summer Intern}{Berkeley, CA}
-\item Conducted research and analyzed data regarding the company's analytics and comparisons with other startup accelerators.
-\item Communicated between different startups to gain insight about programming and starting a company.
-\end{rSubsection}
-
-\end{rSection}
 
 %----------------------------------------------------------------------------------------
 %	PERSONAL PROJECT SECTION
@@ -80,19 +72,24 @@ Tools: & Git/GitHub, Unix/Linux, VSCode, Twilio, NumPy, Selenium, Skimage, Tweep
 \begin{rSection}{Projects}
 
 \begin{rSubsection}{CPU Simulator}{\em December 2021}{}{}
-\item Used C++ to simulate a RISC-V CPU capable of handling nine different instructions.
+\item Simulated a RISC-V CPU in C++, capable of handling nine different instructions.
 \item Implemented various optimizations such as pipelining and a cache with multiple eviction policies.
 \end{rSubsection}
 
 \begin{rSubsection}{EndFTs}{\em April 2022}{}{}
-\item Created a Twitter bot in Python that would take a user's profile picture and mint it into an NFT.
-\item Winner of LAHacks 2022 for most creative use of blockchain technology.
+\item Created a Twitter bot in Python with Tweepy, Heroku, PolygonScan smart contracts, to mint a user's profile picture into an NFT.
+\item Winner of LAHacks 2022 Ankr prize for most creative use of blockchain technology.
 \end{rSubsection}
 
-\begin{rSubsection}{MiniRogue}{\em May 2020}{}{}
-\item Developed a game in C++ based off of Rogue, where a player must navigate through several levels of a dungeon avoiding different types of monsters.
-\item Implementations include an inventory system, chat messages, and weapons with various attributes.
+\begin{rSubsection}{MatchBotCom}{\em February 2021}{}{}
+\item Created a Discord bot in Python for HackSC using GCP and Heroku. 
+\item Bot sent users in a server a customizable survey, matching them in pairs by responses with a stable matching algorithm.
 \end{rSubsection}
+
+% \begin{rSubsection}{MiniRogue}{\em May 2020}{}{}
+% \item Developed a game in C++ based off of Rogue, where a player must navigate through several levels of a dungeon avoiding different types of monsters.
+% \item Implementations include an inventory system, chat messages, and weapons with various attributes.
+% \end{rSubsection}
 
 \begin{rSubsection}{Image Numbering}{\em August 2021}{}{}
 \item Created a Python script that groups like-colored pixels of an image by overlaying it with numbers.
@@ -103,9 +100,7 @@ Tools: & Git/GitHub, Unix/Linux, VSCode, Twilio, NumPy, Selenium, Skimage, Tweep
 \item Developed a custom dynamic memory allocation library in C that utilizes a segregated list to maximize utilization and throughput.
 \item Performed at about 80-90\% efficiency compared to C's standard malloc function.
 \end{rSubsection}
-% \begin{rSubsection}{MatchBotCom}{\em February 2021}{}{}
-% \item Created a Discord bot in Python for HackSC that would send each user in a server a customizable survey and match them in pairs them using their responses and a stable matching algorithm.
-% \end{rSubsection}
+
 
 
 % \begin{rSubsection}{I'm Filing Here}{\em June 2021}{}{}
@@ -113,6 +108,20 @@ Tools: & Git/GitHub, Unix/Linux, VSCode, Twilio, NumPy, Selenium, Skimage, Tweep
 % \end{rSubsection}
 
 \end{rSection}
+
+
+%----------------------------------------------------------------------------------------
+%	WORK EXPERIENCE SECTION
+%----------------------------------------------------------------------------------------
+
+\begin{rSection}{Experience}
+
+    \begin{rSubsection}{Berkeley Skydeck}{\em June 2017 - July 2017}{Summer Intern}{Berkeley, CA}
+    \item Conducted research and analyzed data regarding the company's analytics and comparisons with other startup accelerators.
+    \item Networked with startups to gain insights about programming and starting a company.
+    \end{rSubsection}
+    
+    \end{rSection}
 
 %----------------------------------------------------------------------------------------
 %	ACTIVITIES SECTION
@@ -124,7 +133,7 @@ Tools: & Git/GitHub, Unix/Linux, VSCode, Twilio, NumPy, Selenium, Skimage, Tweep
 % Skills: & C/C++, Python, HTML/CSS, JavaScript, Bash, \LaTeX \\
 % Tools: & Git, Unix, VSCode, Twilio \\
 Activities: & ACM, Undergrad. Math Student Association, Club Martial Arts (Muay Thai, BJJ) \\
-Interests: & CS/Math/Physics, Exercise, Movies/Films, Languages, Cooking
+Interests: & Math/Physics, Exercise, Movies/Films, Cooking
 \end{tabular}
 
 \end{rSection}
